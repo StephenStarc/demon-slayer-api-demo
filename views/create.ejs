@@ -1,0 +1,79 @@
+<%- include("partials/header"); -%>
+<form action="/" method="post">
+<div class="createContainer">
+
+<div class="firstbranch">
+<div class="field">
+    <label class="label">Name</label>
+    <input class="input" placeholder="Name" name="name" autocomplete="off">
+</div>
+<div class="field">
+    <label class="label">ID</label>
+    <input class="input" placeholder="ID" name="id" autocomplete="off">
+</div>
+<div class="field">
+    <label class="label">Race</label>
+    <div class="select">
+    <select name="race">
+        <option >Human</option>
+        <option>Demon</option>
+      </select>
+    </div>
+</div>
+<div class="field">
+    <label class="label">Affiliation</label>
+    <div class="select">
+    <select name="affiliation">
+        <option >Demon Slayer Corps</option>
+      </select>
+    </div>
+</div>
+<div class="field">
+    <label class="label">Skill</label>
+    <input class="input"  placeholder="Skill" name="skill" autocomplete="off">
+</div>
+<div class="field">
+    <label class="label">Quote</label>
+    <textarea rows="5" cols="40" class="textarea" placeholder="Quote" name="quote"></textarea>
+</div>
+<div class="field">
+    <label class="label">Gender</label>
+    <div class="select">
+    <select name="gender">
+        <option >Male</option>
+        <option>Female</option>
+      </select>
+    </div>
+</div>
+</div>
+
+<div class="secondbranch">
+
+<div class="field">
+    <label class="label">Info</label>
+    <textarea rows="6" cols="40" class="textarea" placeholder="Info" name="info"></textarea>
+</div>
+<div class="field">
+    <label class="label">Height</label>
+    <input class="input" placeholder="Height" name="height"autocomplete="off">
+</div>
+<div class="field">
+    <label class="label">Weight</label>
+    <input class="input" placeholder="Weight" name="weight"autocomplete="off">
+</div>
+<div class="field">
+    <label class="label">Birthday</label>
+    <input class="input" placeholder="Birthday" name="birthday" autocomplete="off">
+</div>
+<div class="field">
+    <label class="label">Thumbnail</label>
+    <input class="input" placeholder="Thumbnail" name="thumbnail" autocomplete="off">
+</div><div class="field">
+    <label class="label">Image</label>
+    <input class="input" placeholder="Image" name="image" autocomplete="off">
+</div>
+</div>
+<button type="submit" class="button is-link">Submit</button>
+</div>
+</form>
+<%- include('partials/footer')-%>

@@ -1,0 +1,9 @@
+body{
+    padding: 20px;
+}
+.createContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 50px;
+}
